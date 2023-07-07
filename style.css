@@ -1,0 +1,316 @@
+@font-face {
+    font-family: albertson;
+    src: url(Assets/Albertson.ttf);
+}
+*{
+    font-family: albertson;
+    padding: 0;
+    margin: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.logo
+{
+    width: auto;
+    height: 5vw;
+    margin-left: 2vw;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 0.15vw black;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+nav ul
+{
+    display: flex;
+    margin-right: 2vw;
+}
+nav ul li
+{
+    list-style: none;
+    font-size: 1.6vw;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #3B1B57;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+}
+.hero
+{
+    display: flex;
+    justify-content: space-between;
+    height: 45vw;
+    padding-top: 5vw;
+}
+.hero-text p
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3B1B57;
+    margin-left: 3vw;
+    padding-top: 11vw;
+}
+.hero-text-1
+{
+    font-size: 3.5vw;
+}
+.hero-text-2
+{
+    font-size: 2.5vw;
+    margin-top: 1vw;
+}
+.hero-text-3
+{
+    font-size: 5.5vw;
+    margin-top: 1vw;
+}
+.hero-text-4
+{
+    font-size: 3.5vw;
+    margin-top: 2vw;
+}
+.hero-text-5
+{
+    font-size: 4.5vw;
+    margin-top: 2vw;
+}
+.hero-img
+{
+    width: auto;
+    height: 30vw;
+    margin-top: 8vw;
+    margin-right: 12vw;
+}
+.best-sellers
+{
+    padding-top: 5vw;
+    background-color: #3B1B57;
+    /* padding-bottom: 5vw; */
+}
+#our-r
+{
+    padding-bottom: 5vw;
+}
+.card-img
+{
+    width: auto;
+    height: 10vw;
+    padding-left: 2.5vw;
+}
+.card
+{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Assets/Book\ Card\ PNG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-up
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+    width: 21vw;
+}
+.card-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-text h4
+{
+    width: 10vw;
+    text-align: center;
+    font-size: 2vw;
+    color: #3B1B57;
+}
+.b-title
+{
+    text-align: center;
+    color: white;
+    padding: 1vw;
+    padding-top: 1.3vw;
+    font-size: 4vw;
+    font-weight: 300;
+}
+.b-tagline
+{
+    text-align: center;
+    color: white;
+    padding: vw;
+    font-size: 2vw;
+    font-weight: 100;
+}
+.card-info
+{
+    width: 19vw;
+    text-align: center;
+    margin-top: 1.5vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    color: #3B1B57;
+}
+.card-buttons
+{
+    display: flex;
+    justify-content: space-between;
+    width: 10vw;
+}
+.card-buttons a
+{
+    border: solid #3B1B57 0.2vw;
+    padding: 0.5vw;
+    font-size: 1vw;
+    text-decoration: none;
+}
+.card-buttons a:hover
+{
+    color: white;
+    background-color: #3B1B57;
+}
+.cards-1,.cards-2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards-2
+{
+    margin-top: 3vw;
+}
+.cards-1
+{
+    margin-top: 2vw;
+}
+.reviews
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reviews h1
+{
+    font-size: 4vw;
+    color: #3B1B57;
+    padding-top: 1.3vw;
+    padding-bottom: 2vw;
+}
+.rev-card
+{
+    width: 35vw;
+    height: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: solid #3B1B57 0.3vw;
+}
+.rev-img
+{
+    width: auto;
+    height: 7vw;
+}
+.rev-card-text
+{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rev-card-text-only
+{
+    text-align: center;
+    padding-top: 1vw;
+    color: #3B1B57;
+}
+.rev-card-title
+{
+    font-size: 2vw;
+    color: #3B1B57;
+}
+.rev-card:last-child
+{
+    border-bottom: 0;
+}
+.rev-cards
+{
+    border-right: solid #3B1B57  0.3vw;
+}
+.rev-main
+{
+    display: flex;
+    justify-content: space-between;
+}
+.label
+{
+    color: #3B1B57;
+    width: 25%;
+    font-size: 2vw;
+}
+.your-rev h3
+{ 
+    color: #3B1B57;
+    font-size: 2.5vw;
+}
+.your-rev
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+}
+.single
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    width: 30vw;
+    margin-top: 2.2vw;
+}
+.input
+{
+    color: #3B1B57;
+    width: 75%;
+    font-size: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1vw;
+    border: solid #3B1B57 0.2vw;
+}
+#review
+{
+    height: 12vw;
+}
+.rev-button
+{
+    color: #3B1B57;
+    border: solid #3B1B57 0.3vw;
+    font-size: 2.5vw;
+    margin-top: 3.5vw;
+    padding: 0.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    text-decoration: none;
+}
+.rev-button:hover
+{
+    color: white;
+    background-color: #3B1B57;
+}
+.input:focus
+{
+    background-color: #3B1B57;
+    color: white;
+}
